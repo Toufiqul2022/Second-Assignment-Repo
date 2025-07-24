@@ -179,11 +179,14 @@
 .deals-details h3{
     font-weight: 700;
     font-size: 50px;
+    font-family: "Noto Serif";
+
 }
 .deals-details p{
     font-weight: 400;
     font-size: 22px;
     color:rgba(0, 0, 0, 0.5);
+    font-family: "Inter";
 }
 
 /* Deals Pictures */
@@ -213,11 +216,13 @@
     font-size: 20px;
     color:rgb(255, 255, 255);
     margin: 0;
+    font-family: "Noto Serif";
 }
 .picture-1 a{
     font-weight: 600;
     font-size: 16px;
     color:rgb(255, 255, 255);
+    font-family: "Inter";
 }
 
 .picture-2{
@@ -235,11 +240,13 @@
     font-size: 20px;
     color:rgb(255, 255, 255);
     margin: 0;
+    font-family: "Noto Serif";
 }
 .picture-2 a{
     font-weight: 600;
     font-size: 16px;
     color:rgb(255, 255, 255);
+    font-family: "Inter";
 }
 
 .picture-3{
@@ -257,11 +264,13 @@
     font-size: 40px;
     color:rgb(255, 255, 255);
     margin: 0;
+    font-family: "Noto Serif";
 }
 .picture-3 a{
     font-weight: 600;
     font-size: 28px;
     color:rgb(255, 255, 255);
+    font-family: "Inter";
 }
 
 /* Join bunch */
@@ -286,6 +295,7 @@
 .join-title h2{
     margin-top: 0;
     margin-bottom: 23px;
+    font-family: "Noto Serif";
 }
 
 .join-input input{
@@ -311,6 +321,7 @@
     font-weight: 400;
     font-size: 22px;
     color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter";
 }
 .footer-details-2 ul {
     display: flex;
@@ -326,6 +337,7 @@
     font-size: 16px;
     text-decoration: none;
     color:rgb(107, 114, 128) ;
+    font-family: "Inter";
 }
 
 .footer-details-3 ul {
@@ -342,6 +354,7 @@
     font-size: 16px;
     text-decoration: none;
     color:rgb(107, 114, 128) ;
+    font-family: "Inter";
 }
 
 .footer-logo{
