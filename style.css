@@ -28,6 +28,7 @@
 }
 .nav-item-4{
     color:rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 /* Banner section */
@@ -68,18 +69,18 @@
 
 /* Plants section */
 
-.Plants-details{
+.Plants-details-1{
     text-align: center;
     margin-top: 120px;
     gap:16px;
 }
-.Plants-details h3{
+.Plants-details-1 h3{
     margin: 0;
     font-weight: 700;
     font-size:50px;
     font-family: "Noto Serif";
 }
-.Plants-details p{
+.Plants-details-1 p{
     font-weight: 400;
     font-size: 22px;
     color:rgba(0, 0, 0, 0.5);
@@ -148,20 +149,20 @@
     
     
 }
-.plants-details {
+.plants-details-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
-.plants-details h2{
+.plants-details-2 h2{
     font-weight:700;
     font-size: 50px;
     font-family: "Noto Serif";
     color:rgb(0, 0, 0);
 }
-.plants-details ul li{
+.plants-details-2 ul li{
     font-weight:400 ;
     font-size: 22px;
     font-family: "Inter";
@@ -277,7 +278,7 @@
 
 .join{
     background-image: url('./assets/news-letter-bg.png');
-    max-width: 100%;
+    background-size: 100%;
     height: 530px;
     display: flex;
     flex-direction: column;
@@ -363,4 +364,147 @@
     gap: 24px;
     align-items: center;
     margin-top: -200px;
+}
+
+@media screen and (max-width:576px) {
+    body{
+        width: 576px;
+    }
+    .Navbar-section{
+        display: flex;
+        justify-content: space-between;
+        width: 576px;
+    }
+    .nav-item-1, .nav-item-2 , .nav-item-3{
+        display: none;
+    }
+    .nav-item-4{
+        text-align: center;
+    }
+     .banner-section{
+        display:flex;
+        flex-direction: column;
+        width: 576px;
+        margin: 20px;
+    }
+    .banner-section img{
+        order: 1;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .banner-details{
+        width: 576px;
+        margin-top: 0;
+        order: 2;
+    }
+    .Plants-details-1 , .deals-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 576px;
+        text-align: center;
+        margin-top: 410px;
+    }
+    .deals-details{
+        margin: 0;
+        margin-top: 130px;
+    }
+    .Plants-details-1 p, .deals-details p{
+        width: 500px;
+    }
+    .deals-details h3{
+        margin: 0;
+    }
+    .plant-card{
+        margin: 28px 15px;
+    }
+    .card-7 , .card-8{
+        display: none;
+    }
+    .lover-pic-1{
+        margin: 18px;
+        margin-top: 22px;
+    }
+    .lover-pic-2{
+        display: none;
+    }
+    .plant-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .plant-lover-section{
+        width: 576px;
+        flex-direction: column;
+        margin-top: 0;
+        gap: 0;
+    }
+    .plants-details-2{
+        width: 576px;
+        margin-left: 0;
+    }
+    .plants-details-2 h2{
+        margin: 17px 0;
+    }
+    .deals-container {
+        width: 576px;
+        flex-direction: column;
+        margin: 45px 30px;
+    }
+    .picture-1{
+        width: 525px;
+        height: 200px;
+    }
+    .picture-2{
+        width: 525px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .picture-3{
+        width: 525px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    .join{
+        
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+    }
+    .join-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    }
+
+    .join-title h2{
+    margin-top: 0;
+    margin-bottom: 23px;
+    font-family: "Noto Serif";
+    }
+
+    .join-input input{
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    margin: 0;
+    }
+    .join-btn{
+        width: 120px;
+    }
+    .footer-details-container{
+        flex-direction: column;
+    }
+    .footer-details-1, .footer-details-2 , .footer-details-3{
+        margin-left: 30px;
+    }
+    .footer-details-2 ul , .footer-details-3 ul{
+        padding: 0;
+    }
+    .footer-logo{
+        margin: 30px 30px 60px 30px;
+    }
 }
